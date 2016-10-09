@@ -11,7 +11,7 @@
   TARGET3 = menu
   all:
   
-  
+	mkdir -p $(PAT)
 	$(CC) $(CFLAGS) -o $(PAT)$(TARGET) $(TARGET).cpp $(TARGET2).cpp $(TARGET3).cpp
 	./$(PAT)$(TARGET)
 
